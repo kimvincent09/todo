@@ -1,0 +1,91 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+}
+.Container{
+  width: 500px;
+  border: solid 1px black;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(#9800fd, rgba(171, 210, 255, 0.591))
+}
+h1{
+  text-align: center;
+}
+li{
+ list-style: none;
+ padding: 10px;
+ border-radius: 10px;
+ box-shadow: #282c34;
+ color: black;
+ box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.delete{
+  color: white;
+  padding: 5px;
+  position:absolute;
+  right: 390px;
+}
+.delete:hover{
+  cursor: pointer;
+  color:red
+}
+ul{
+padding: 10px;
+}
+input{
+  padding: 10px;
+  margin: 10px;
+}
+input[type=text]{
+  width: 50%;
+}
+form{
+  text-align: center;
+}
+button{
+  background-color: #044cd0;
+  color: white;
+  padding: 10px;
+
+}
+button:hover{
+  cursor: pointer;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
